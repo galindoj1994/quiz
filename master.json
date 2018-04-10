@@ -1,7 +1,10 @@
 {
 	"server": {
-		"id": 0,
-		"owner_id": "2442d8f7-0bba-4f9c-ae6d-83287ad96383",
+	"host":"127.0.0.1",
+	"port":25565,
+	"args":["java","-Xms1024M","-Xmx2048M","-jar","minecraft_server.jar","nogui"],
+	"enabled":true
 	},
-	"url": "https://nodecraft.com"
+		"url":"https://nodecraft.com",
+		"debug":true
 }
